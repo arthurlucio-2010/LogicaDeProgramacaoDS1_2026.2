@@ -12,3 +12,6 @@ Calcule e mostre na tela o Custo Por Clique (CPC) médio da campanha formatado e
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor_total = float(input("valor"))
+numero_de_cliques_obtidos = float(input("total de cliques obtidos"))
+print(f" valor total da campanha foi de{valor_total}a quantidade de clique foi{numero_de_cliques_obtidos:.2f}")

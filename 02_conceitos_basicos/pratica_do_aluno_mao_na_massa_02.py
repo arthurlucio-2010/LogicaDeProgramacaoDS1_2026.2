@@ -5,4 +5,6 @@
 # 4. Imprima formatado usando f-string
 valor_da_conta = float(input("digite o valor da conta"))
 leia_o_numero_de_pessoas =  float(input("digite o numeros de pessoas"))
-calcule_o_valor_por_pessoa = float(input("o valor que cada pessoa ira pagar"))
+calcule_o_valor_por_pessoa = valor_da_conta / leia_o_numero_de_pessoas
+print(f"esse é o valor a pagar por pessoa {calcule_o_valor_por_pessoa:.2f}")
+
