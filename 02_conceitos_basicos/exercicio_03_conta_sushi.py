@@ -11,5 +11,6 @@ Crie um programa que:
 
 # TODO: Desenvolva o algoritmo abaixo:
 valor_total_consumido = float(input("qual o valor total")) 
-taxa_servico = valor_total_consumido * 0,10
-valor_final_conta = (valor_total_consumido + taxa_servico 
+taxa_servico = valor_total_consumido * 0.10
+valor_final_conta = (valor_total_consumido + taxa_servico )
+print(f"valor final da conta e R$  { valor_final_conta :.2f}")
