@@ -13,4 +13,25 @@ Leia o salário de um colaborador da escola e aplique o percentual de reajuste:
 Imprima: novo salário, valor do reajuste ganho e percentual aplicado.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: Desenvolva o algoritmo abaixo: 
+import re
+
+
+salario = float(input("digite seu salario"))
+if salario <= 400:
+    percentual = 0.15
+elif salario <= 800:
+    percentual = 0.12
+elif salario <= 1200:
+    percentual =0.10
+elif salario<= 2000:
+    percentual = 0.07
+else:
+    percentual = 0.04
+
+reajuste = salario * percentual / 100
+novo_salario = salario + reajuste
+
+print(f"salario novo R$ {novo_salario:.2f}")
+print(f"reajuste ganho: R$:{reajuste:.2f}")
+print(f"percentual aplicado:{percentual}%")
