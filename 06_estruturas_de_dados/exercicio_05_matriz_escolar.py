@@ -10,3 +10,9 @@ Percorra a matriz, calcule a média de cada um e exiba:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+matriz_alunos = [
+    ["kaio", 8.0, 7.0],
+    ["pixica", 5.0, 8.0],
+    ["betao", 2.0, 5.0]
+]
+

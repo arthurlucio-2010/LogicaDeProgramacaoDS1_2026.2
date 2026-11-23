@@ -10,3 +10,12 @@ ENUNCIADO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+monitores = ["ryan mesquita damasceno"]
+
+monitores.append("betao pichica ")
+monitores.append("kaio parente pichica trajano")
+
+monitores [0] = "betao pichica"
+
+print(monitores)

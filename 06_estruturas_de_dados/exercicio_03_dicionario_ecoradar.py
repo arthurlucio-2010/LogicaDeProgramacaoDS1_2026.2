@@ -8,3 +8,11 @@ Leia uma matrícula via terminal e exiba a função correspondente cadastrada.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+cadastro = {
+    "arthur": "estagiario",
+    "kaio" : "prefeito",
+    "betao": "dono da casa"
+}
+for matricula, cargo in cadastro.items():
+    print (f"matricula: {matricula} -> cargo: {cargo}")

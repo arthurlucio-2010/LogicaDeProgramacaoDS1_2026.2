@@ -15,8 +15,8 @@ y = int(input("Digite o valor de Y: "))
 inicio = min(x, y)
 fim = max(x, y)
 
-for numero in range(inicio, fim + 1):
-    resto = numero % 5
+for n in range(inicio, fim + 1):
+    resto = n % 5
 
     if resto == 2 or resto == 3:
-        print(numero)
+        print(n)
